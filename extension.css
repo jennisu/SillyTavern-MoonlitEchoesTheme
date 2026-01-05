@@ -114,7 +114,7 @@ body:has(#extensionTopBar) {
 
     @media screen and (max-width: 1000px) {
         #sheld {
-            padding-top: calc(var(--topBarBlockSize) - 5px) !important;
+            padding-top: calc(var(--topBarBlockSize) + 5px) !important;
         }
 
     }
