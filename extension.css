@@ -159,7 +159,7 @@ body.waifuMode:has(#extensionTopBar) {
     @media screen and (max-width: 1000px) {
         /*top: var(--topBarBlockSize) !important;*/
         top: calc(var(--topBarBlockSize) + 10px) !important;
-        width: 95% !important;
+        width: 96% !important;
         /*border-radius: 0 !important;*/
         opacity: 0.8;
         border: none !important;
@@ -239,7 +239,7 @@ body.waifuMode:has(#extensionConnectionProfiles.visible) #extensionTopBar {
     z-index: 350;
 
     @media (max-width: 1000px) {
-        width: 95% !important;
+        width: 96% !important;
         /*border-radius: 0 !important;*/
         border: none !important;
         /*border-bottom: 1px solid color-mix(in srgb, var(--SmartThemeBodyColor) 25%, transparent) !important;*/
