@@ -3567,7 +3567,7 @@ body.whisperstyle,
 body.hushstyle,
 body.ripplestyle {
     #chat .mes {
-        border: 1px solid color-mix(in srgb, var(--SmartThemeBodyColor) 10%, transparent);
+        /*border: 1px solid color-mix(in srgb, var(--SmartThemeBodyColor) 10%, transparent);*/
     }
 
 }
