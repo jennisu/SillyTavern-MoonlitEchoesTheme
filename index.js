@@ -133,9 +133,9 @@ function addExtensionMenuButton() {
 
     // Create button element with moon icon and theme name
     let $button = $(`
-    <div class="list-group-item flex-container flexGap5 interactable" title="Open Moonlit Echoes Theme Settings" data-i18n="[title]Open Moonlit Echoes Theme Settings" tabindex="0">
+    <div class="list-group-item flex-container flexGap5 interactable" title="Open Mew Moonlit Echoes Theme Settings" data-i18n="[title]Open Mew Moonlit Echoes Theme Settings" tabindex="0">
         <i class="fa-solid fa-moon"></i>
-        <span>Moonlit Echoes</span>
+        <span>Mew Moonlit Echoes</span>
     </div>
     `);
 
@@ -213,7 +213,7 @@ function addThumbnailTip(container) {
     // Set tip content, more concise
     tipContent.innerHTML = `
         <div style="line-height: 1.4;">
-            <span data-i18n="Please refer to the">Please refer to the</span> <a href="https://github.com/RivelleDays/SillyTavern-MoonlitEchoesTheme" target="_blank">Moonlit Echoes Theme GitHub README</a> <span data-i18n="and complete the necessary setup.">and complete the necessary setup.</span>
+            <span data-i18n="Please refer to the">Please refer to the</span> <a href="https://github.com/jennisu/SillyTavern-MewMoonlitEchoesTheme" target="_blank">Mew Moonlit Echoes Theme GitHub README</a> <span data-i18n="and complete the necessary setup.">and complete the necessary setup.</span>
             </div>
         </div>
     `;
@@ -307,7 +307,7 @@ function addSlashCommandsTip(container) {
     // Set tip content with slash command info and increased list item spacing
     tipContent.innerHTML = `
     <div style="line-height: 1.5;">
-        <span style="font-weight:500;" data-i18n="Moonlit Echoes Styles:">Moonlit Echoes Styles:</span>
+        <span style="font-weight:500;" data-i18n="Moonlit Echoes Styles:">Mew Moonlit Echoes Styles:</span>
         <ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
             <li style="margin-bottom: 8px;"><code>/echostyle</code> - <span data-i18n="Switch to Echo style">Switch to Echo style</span></li>
             <li style="margin-bottom: 8px;"><code>/whisperstyle</code> - <span data-i18n="Switch to Whisper style">Switch to Whisper style</span></li>
@@ -597,7 +597,7 @@ function renderExtensionSettings() {
     });
 
     const enabledCheckboxText = document.createElement('span');
-    enabledCheckboxText.textContent = t`Enable Moonlit Echoes Theme`;
+    enabledCheckboxText.textContent = t`Enable Mew Moonlit Echoes Theme`;
 
     enabledCheckboxLabel.append(enabledCheckbox, enabledCheckboxText);
     inlineDrawerContent.append(enabledCheckboxLabel);
@@ -739,9 +739,9 @@ versionContainer.style.textAlign = 'center';
 // Set HTML content
 versionContainer.innerHTML = `
     <small class="flex-container justifyCenter alignitemscenter">
-        <span data-i18n="Moonlit Echoes Theme Version">Moonlit Echoes Theme Version</span>
+        <span data-i18n="Moonlit Echoes Theme Version">Mew Moonlit Echoes Theme Version</span>
         <a id="moonlit-echoes-version"
-            href="https://github.com/RivelleDays/SillyTavern-MoonlitEchoesTheme"
+            href="https://github.com/jennisu/SillyTavern-MewMoonlitEchoesTheme"
             target="_blank"
             rel="noopener noreferrer"
             style="margin-left: 5px;">${THEME_VERSION}</a>
